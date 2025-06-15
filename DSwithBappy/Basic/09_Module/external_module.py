@@ -4,6 +4,7 @@
 # pip uninstall fastapi
 # pip install uvicorn
 # pip uninstall uvicorn
+# pip list for getting list of installed module
 
 # will run on not http://0.0.0.0:8080/ on http://0.0.0.0:8080
 from fastapi import FastAPI
