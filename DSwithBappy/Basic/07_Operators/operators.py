@@ -8,7 +8,7 @@
 # 6. Membership Operators
 
 # 1. Arithmetic Operators
-# + - * / // % =
+# + - * / // % = **
 print("Arithmetic Operators Results")
 print(4+3)
 print(4-3)
