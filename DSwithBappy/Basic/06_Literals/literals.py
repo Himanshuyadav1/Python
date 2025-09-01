@@ -6,7 +6,7 @@ print(a) # 1010 --> 10 in binary
 
 # Octal Literals
 b = 0o144 # 0o denotes octal literals
-print(b) # 310 --> 200
+print(b) # 144 --> 100
 
 # Decimal Literals
 c = 200

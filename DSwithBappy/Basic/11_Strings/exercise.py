@@ -16,7 +16,7 @@ for i in s:
 
 print(len(s))
 print(f"Length of the {s} is {lenth}")
-print();
+print()
 
 # Exercise 2:
 email = input("Enter your email id: ")

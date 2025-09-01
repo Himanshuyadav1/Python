@@ -228,7 +228,7 @@ print()
 s = "Welcome to JavaScript"
 
 print("replace Method")
-print(s.replace("JavaScript", "Python"))
+print(s.replace("JavaScript", "Python")) # Welcome to Python
 
 print()
 
