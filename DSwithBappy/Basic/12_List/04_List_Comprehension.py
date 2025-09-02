@@ -75,7 +75,7 @@ print(L) # [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
 print('Using List Comprehansion')
 
 LC = [i for i in range(1, 51) if i % 5 == 0]
-print(LC) 
+print(LC) # [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
 
 print()
 
@@ -89,7 +89,7 @@ print(languages)
 print('Using Loop')
 for language in languages:
     if language.startswith('p'):
-        L.append(i)
+        L.append(language)
 
 print(L) # ['python', 'php']
 
