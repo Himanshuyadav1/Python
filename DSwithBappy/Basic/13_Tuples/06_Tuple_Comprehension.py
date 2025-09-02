@@ -7,12 +7,12 @@ You might have read about list comprehension in Python. However, there is no tup
 # Add 1 to 10 numbers to a list
 print('Add 1 to 10 numbers to a list')
 print('Using loop')
-L = []
+T = ()
 
 for i in range(1, 11):
-    L.append(i)
+    T = T + (i,)
 
-print(L) # [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print(T) # (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 
 print('Emulate Tuple Comprehansion')
 TC = (i for i in range(1, 11))
